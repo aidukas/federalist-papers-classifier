@@ -10,8 +10,9 @@ By using K-Nearest Neighbors, a bag of words model, and semantic analysis with f
 To replicate these results, clone this repo, and then run the following commands in the cloned repo.
 
     ~ python splitter.py
-      // Splits the essays into Disputed, Madison, Hamilton, and Jay categories, and stores the output in papers.txt.
+      // Splits the essays into Disputed, Madison, Hamilton, and Jay categories. 
+      // Stores the splits in papers.txt.
     ~ python classifier.py
-      // Classifies the 12 disputed essays. The results of the classification will be printed out.
+      // Classifies the 12 disputed essays. The results are printed out.
     
   
